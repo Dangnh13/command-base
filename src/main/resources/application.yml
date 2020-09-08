@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/production
+    username: root
+    password: vertrigo
